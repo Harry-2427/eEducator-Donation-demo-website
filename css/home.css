@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.bg-image {
+    background-image: url('../img/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+  .nav__logo{
+      width: 60px;
+  }
+  .tagline {
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(43, 34, 43, 0.315);
+    width: max-content;
+    margin: 5px 0px 10px 480px;
+    
+  }
+  
+  .logo-heading {
+    text-align: center;
+  }
+  
+  .donation {
+    
+    text-align: center;
+    width: 75%;
+    margin: 75px auto 0px;
+    color: white;
+    
+  }
+  
+  .donation p {
+    font-family: 'Poppins';
+    font-size: 22px;
+    background-color: rgba(43, 34, 43, 0.315);
+  }
+  
+  hr {
+    width: 30%;
+    margin: 16px auto 16px;
+    height: 3px !important;
+  }
+  
+
+
+  @media screen and (max-device-width: 900px) {
+    
+  
+    hr {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-device-width: 500px) {
+    .donation {
+      width: 65%;
+    }
+  
+    
+  }
